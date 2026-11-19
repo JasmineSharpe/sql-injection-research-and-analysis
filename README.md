@@ -53,7 +53,7 @@ This case study demonstrated how SQL injection can contribute to larger security
 
 ### Capstone Presentation
 
-[View Our SQL Injection Capstone Presentation](research/CYB11_SQLi_Capstone.pdf)
+[View Our SQL Injection Capstone Presentation](research/CYB101_SQLi_Capstone.pdf)
 
 *The presentation was developed collaboratively as part of CodePath CYB101. My individual research contributions focused on the effects of SQL injection and the MOVEit Transfer case study.*
 
@@ -66,8 +66,8 @@ The purpose was to observe how SQL injection can affect application behavior and
 
 | Lab | Objective | Outcome |
 |---|---|---|
-| **[01 — Hidden Data Retrieval](labs/01-hidden-data-retrieval/README.md)** | Manipulate a SQL `WHERE` clause to bypass product restrictions | Successfully retrieved products beyond the original category restrictions |
-| **[02 — Authentication Bypass](labs/02-authentication-bypass/README.md)** | Manipulate a login query to bypass password verification | Successfully authenticated as the administrator without the correct password |
+| **[01 — Hidden Data Retrieval](lab/01-hidden-data-retrieval/README.md)** | Manipulate a SQL `WHERE` clause to bypass product restrictions | Successfully retrieved products beyond the original category restrictions |
+| **[02 — Authentication Bypass](lab/02-authentication-bypass/README.md)** | Manipulate a login query to bypass password verification | Successfully authenticated as the administrator without the correct password |
 
 Both labs were successfully completed.
 
@@ -133,6 +133,8 @@ The PortSwigger labs and accompanying documentation were completed independently
 
 ### Real-World Case Study
 - [NIST National Vulnerability Database — CVE-2023-34362: MOVEit Transfer SQL Injection](https://nvd.nist.gov/vuln/detail/CVE-2023-34362)
+- [CISA — CL0P Ransomware Gang Exploits MOVEit Vulnerability](https://content.govdelivery.com/accounts/USDHSCISA/bulletins/35ecb08)
+- [Progress Software — MOVEit Transfer Security Advisory](https://community.progress.com/s/article/MOVEit-Transfer-Critical-Vulnerability-31May2023)
 
 ### Video Resources
 - [SQL Injection — YouTube Video](https://www.youtube.com/watch?v=vqnfc4bJigo)
