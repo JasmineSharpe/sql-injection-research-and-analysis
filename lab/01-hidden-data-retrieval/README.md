@@ -41,10 +41,10 @@ This lab demonstrated how SQL injection can manipulate database queries and expo
 ## Evidence
 
 ### Before Injection
-![Products before SQL injection](screenshots/before-injection.png)
+![Products before SQL injection](screenshots/before_injection.png)
 
 ### After Injection
-![Products after SQL injection](screenshots/after-injection.png)
+![Products after SQL injection](screenshots/after_injection.png)
 
 ## Key Takeaway
 This exercise reinforced the importance of separating user input from executable SQL queries. Parameterized queries can prevent user-supplied values from changing the intended SQL structure.
